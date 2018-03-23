@@ -15,6 +15,7 @@
 		BD215FDE2065C54200111F94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD215FDD2065C54200111F94 /* main.m */; };
 		BD215FE82065C54200111F94 /* AutolayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD215FE72065C54200111F94 /* AutolayoutDemoTests.m */; };
 		BD215FF32065C54200111F94 /* AutolayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD215FF22065C54200111F94 /* AutolayoutDemoUITests.m */; };
+		BD2160022065C6B600111F94 /* ConstraintHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2160012065C6B600111F94 /* ConstraintHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BD215FEE2065C54200111F94 /* AutolayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD215FF22065C54200111F94 /* AutolayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutDemoUITests.m; sourceTree = "<group>"; };
 		BD215FF42065C54200111F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2160002065C6B600111F94 /* ConstraintHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintHelper.h; sourceTree = "<group>"; };
+		BD2160012065C6B600111F94 /* ConstraintHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		BD215FCD2065C54200111F94 /* AutolayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BD2160002065C6B600111F94 /* ConstraintHelper.h */,
+				BD2160012065C6B600111F94 /* ConstraintHelper.m */,
 				BD215FCE2065C54200111F94 /* AppDelegate.h */,
 				BD215FCF2065C54200111F94 /* AppDelegate.m */,
 				BD215FD12065C54200111F94 /* ViewController.h */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD215FD32065C54200111F94 /* ViewController.m in Sources */,
+				BD2160022065C6B600111F94 /* ConstraintHelper.m in Sources */,
 				BD215FDE2065C54200111F94 /* main.m in Sources */,
 				BD215FD02065C54200111F94 /* AppDelegate.m in Sources */,
 			);
